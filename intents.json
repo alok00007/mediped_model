@@ -1,0 +1,159 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What do you do?",
+        "What kind of work do you do?",
+        "What is your work?"
+      ],
+      "responses": [
+        "We do Disease Prediction and Suggestion",
+        "We predict the severeness of disease"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal,UPI etc..",
+        "We accept most major credit cards, and Paypal,UPI .."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Who are your founders?",
+        "Who created you?",
+        "Who are your team members?"
+      ],
+      "responses": [
+        "Abhishek,Alok,Ayush and Akash has created me. I am here to help you.",
+        "My team members are Abhishek,Ayush,Akash and Alok."
+      ]
+    },
+    {
+      "tag": "Dengue Symptoms",
+      "patterns": [
+        "Tell me about dengue",
+        "what is dengue?",
+        "what are symptoms of dengue?",
+        "what is Cure of dengue"
+      ],
+      "responses": [
+        "Dengue fever is a mosquito-borne viral infection that causes flu-like symptoms. The symptoms can vary from mild to severe and may include:High Fever: Sudden onset of high fever, often reaching up to 104°F (40°C).Severe Headache: Intense headaches, especially behind the eyes.Pain Behind the Eyes: Pain, often described as a deep ache, behind the eyes.Fatigue: Extreme tiredness and fatigue.",
+        "Dengue fever is a mosquito-borne viral infection that causes flu-like symptoms. The symptoms can vary from mild to severe and may include: Nausea and Vomiting: Nausea, vomiting, and loss of appetite.Skin Rash: A rash may appear two to five days after the onset of fever, typically on the arms, legs, and torso.Mild Bleeding: Minor bleeding, such as nosebleeds, bleeding gums, or easy bruising."
+      ]
+    },
+
+    {
+       "tag":"Dengue Cure",
+       "patterns":[
+        "How to cure dengue",
+        "What is treatment of dengue"
+       ],
+       "responses":[
+        "Fluid Replacement: Adequate hydration is crucial, especially in cases where there is vomiting, diarrhea, or high fever. Oral rehydration solutions or intravenous fluids may be administered to prevent dehydration.Pain Relief: Pain relievers such as acetaminophen (paracetamol) are typically used to reduce fever and alleviate muscle and joint pain. Nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen or aspirin should be avoided, as they can increase the risk of bleeding.Bed Rest: Patients are advised to get plenty of rest to help the body fight the infection and recover.",
+        "Monitoring: Patients with dengue fever, especially those with severe symptoms, should be closely monitored for any signs of complications such as severe bleeding, dehydration, or organ impairment.Hospitalization: Severe cases of dengue fever, particularly those progressing to dengue hemorrhagic fever (DHF) or dengue shock syndrome (DSS), may require hospitalization for intensive care and monitoring.Prevention of Mosquito Bites: Since dengue fever is spread by mosquitoes, it's important to prevent mosquito bites to avoid further transmission of the virus. This includes using mosquito repellents, wearing long sleeves and pants, and using mosquito nets or screens."
+       ]
+    },
+    {
+      "tag":"Malaria Cause",
+      "patterns":[
+        "Why do malaria happens?",
+        "what are symptoms of malaria?",
+        "what happens when you have malaria?",
+        "what are problems when malaria?",
+        "what are different side effects of malaria"
+      ],
+      "responses":[
+        "Malaria symptoms can vary depending on the species of the parasite causing the infection, the individual's immunity, and other factors. Chills: Chills often accompany the fever and may be severe.Headache: Malaria can cause intense headaches, which may be persistent.Fatigue: Malaria can cause extreme tiredness and weakness.Muscle and joint pain: Aching muscles and joints are often reported, resembling flu-like symptoms.",
+        "Abdominal pain: Some individuals may experience abdominal discomfort, including diarrhea.Anemia: Severe malaria infections can lead to anemia due to the destruction of red blood cells.Jaundice: Yellowing of the skin and eyes can occur in cases of severe malaria, indicating liver involvement."
+      ]
+    },
+    {
+      "tag":"malaria cure",
+      "patterns":[
+        "How to cure malaria",
+        "what are medicines of malaria",
+        "how to treat malaria"
+      ],
+      "responses":[
+        "The treatment of malaria typically involves the use of antimalarial medications. The choice of medication and duration of treatment depend on several factors, including the species of malaria parasite causing the infection, the severity of the illness, the patient's age, and whether there are any complications or resistance to specific drugs. Here are some common antimalarial medications used for treatment: Artemisinin-based combination therapies (ACTs): These are currently the most effective treatments for uncomplicated malaria caused by Plasmodium falciparum, which is the most deadly species of malaria parasite. ACTs combine an artemisinin derivative with another antimalarial drug to ensure both rapid reduction of parasite numbers and elimination of remaining parasites.Chloroquine: This was once a widely used antimalarial drug, particularly for uncomplicated cases caused by Plasmodium vivax and Plasmodium malariae. However, chloroquine resistance is widespread in many parts of the world, and it is no longer recommended for treating infections caused by Plasmodium falciparum in most regions.",
+        "Quinine: Quinine is an older antimalarial drug that is still used in certain circumstances, such as for treating severe malaria or when other medications are not available or appropriate. It's often used in combination with other drugs.Atovaquone-proguanil: This combination medication is effective against both chloroquine-resistant Plasmodium falciparum and Plasmodium vivax.Doxycycline, Clindamycin, and other antibiotics: These medications may be used as alternatives or in combination with other antimalarial drugs, particularly for treating certain types of malaria or when the patient cannot tolerate other medications."
+      ]
+    },
+    {
+      "tag":"Chikangunia symptoms",
+      "patterns":[
+        "what are different symptoms of chikangunia?",
+        "what are symptoms of chikangunia?",
+        "why chikangunia occurs?",
+        "what are side effects of chikangunia?"
+      ],
+      "responses":[
+        "Chikungunya is a viral infection transmitted to humans through the bite of infected mosquitoes, primarily the Aedes aegypti and Aedes albopictus species. The symptoms of chikungunya typically appear 3 to 7 days after being bitten by an infected mosquito. Common symptoms include: Fever: Chikungunya infection often starts with a sudden onset of high fever, typically above 102°F (38.9°C).Joint pain: Severe joint pain, often affecting multiple joints, is a hallmark symptom of chikungunya. The pain can be debilitating and may persist for weeks to months, and sometimes even longer, after the acute phase of the illness has passed. Joints commonly affected include the wrists, ankles, knees, and small joints of the hands and feet.Muscle pain: Muscle pain, which can be severe, is another common symptom. It often accompanies joint pain.Headache: Many individuals with chikungunya experience headaches, which can range from mild to severe.Rash: Some people develop a rash characterized by red, flat or raised spots on the skin. The rash may be itchy and typically appears on the trunk and limbs."
+      ]
+    },
+    {
+      "tag":"Chikangunia cure",
+      "patterns":[
+        "what is treatment of chikangunia",
+        "How to cure chikangunia",
+        "what are cure of chikangunia"
+      ],
+      "responses":[
+        "Currently, there is no specific antiviral treatment available for chikungunya. Treatment primarily focuses on relieving symptoms and providing supportive care to help the patient recover. Here are some common approaches to managing chikungunya infection: Pain relief: Over-the-counter pain relievers such as acetaminophen (paracetamol) are often recommended to alleviate fever and joint pain. Nonsteroidal anti-inflammatory drugs (NSAIDs) like ibuprofen or naproxen may also be used, but caution should be exercised, especially in individuals with a history of stomach ulcers or kidney problems, and these should be avoided in individuals with dengue fever until dengue is ruled out.Rest: Adequate rest is essential to help the body fight the infection and recover from symptoms such as fatigue.Hydration: Drinking plenty of fluids helps prevent dehydration, especially if the patient has a fever, is experiencing vomiting, or is unable to eat due to mouth ulcers.Cold compresses: Applying cold packs or cool compresses to swollen and painful joints can help reduce inflammation and alleviate discomfort."
+      ]
+    },
+    {
+      "tag":"contacts",
+      "patterns":[
+        "How can I contact your your team?",
+        "what are your contact details",
+        "How to reach you",
+        "How to contact your team?",
+        "How to contact your company?"
+      ],
+      "responses":[
+        "our email address is : help@mediped.org.in our contact number is 123456789 You can contact through Contact Section of our app by Providing you email address and ask your query there and our team will contact you"
+      ]
+    }
+  ]
+}
