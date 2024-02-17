@@ -19,12 +19,18 @@ body {
     --primary: #581B98;
 }
 
+.container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+
+}
 /* CHATBOX
 =============== */
 .chatbox {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
+    position: relative;
 }
 
 /* CONTENT IS CLOSE */
